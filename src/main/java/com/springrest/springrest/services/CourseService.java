@@ -10,4 +10,8 @@ public interface CourseService {
 	public Course getCourse(long courseId); //due to Run Time Polymorphism impl getCourse will run
 
 	public Course addCourse(Course course);
+
+	public Course updateCourse(Course course);
+
+	public void deleteCourse(long parseLong);
 }
