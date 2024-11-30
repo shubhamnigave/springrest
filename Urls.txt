@@ -1,0 +1,7 @@
+API Urls For Course APP
+Method         URLS                   Use
+GET	     /courses		   Get All Courses
+GET	     /courses/{courseId)   Get Single Course
+POST	     /courses		   Add New Course
+PUT	     /courses		   Update Course
+DELETE	     /courses/{courseId}   Delete Course by ID
