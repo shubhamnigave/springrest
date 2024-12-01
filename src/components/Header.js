@@ -1,12 +1,15 @@
 import React from 'react';
+import {Card, CardBody } from 'reactstrap';
 function Header({name, title}){
     return (
-       <div style={{background:'yellow', padding:30}}>
-         
-            <h1>My Website {title}</h1>
-            <h1>Code India by {name}</h1>
-            <p>This is all about React</p>
-        
+       <div>
+         <Card className='my-2 bg-warning'>
+            <CardBody>
+        <h1 className="text-center my-2" style={{width: '40rem'}}>
+        Welcome to Courses Application
+        </h1>
+        </CardBody>
+        </Card>        
         </div>
     )
 }
